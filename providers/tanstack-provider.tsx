@@ -12,7 +12,7 @@ export default function TanstackProvider({ children }: { children: React.ReactNo
       }
     }
   }));
-
+  
   return (
     <QueryClientProvider client={queryClient}>
       {children}
